@@ -1,0 +1,79 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position: fixed;
+  background: #6c5b7b;
+  width: 80%;
+  color: #fff;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-loading-text {
+  text-align: center;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.movie-image {
+  width: 185px;
+  height: 262px;
+}
+
+.large-poster {
+  width: 342px;
+  height: 513px;
+}
+
+.movie-card {
+  margin-left: 44px;
+  border-style: outset;
+  border-width: 2px;
+}
+
+.appBar {
+  background-color: #f67280;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  border-style: outset;
+  border-width: 2px;
+  overflow: hidden;
+}
+
+.logo {
+  margin: 32px;
+  float: left;
+}
+
+.searchBox {
+  margin: 32px;
+  float: right;
+}
+
+.searchButton {
+  margin-top: 32px;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  float: right;
+}
+
+.movie-list {
+  color: #fff;
+  background-color: #355c7d;
+  align-content: center;
+}
